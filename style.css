@@ -1,14 +1,17 @@
 .outer{
     border: 2px solid yellow;
     width: 100%;
-
+    margin: 0%;
+    padding: 0%;
 }
 .nav-bar{
-    width: 100%;
-    height: calc(100%-80%);
+   
+    height: 40px;
     background-color: blue;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content:space-between;
+    color: white;
 
 }
 .nav-bar-logo{
@@ -18,27 +21,25 @@
     font-size: 34px;
 }
 .nav-bar-others{
-    width: 50%;
-    
-    height: 40px;
+    gap: 20px;
     align-items: center;
     justify-content: space-between;
     display: flex;
+    padding-right: 10px;
 }
 
 .loginbtn{
-    width: 20%;
-    padding-left: 10px;
+    color: white;
     height: 40px;
     align-items: center;
-    background: transparent;
+    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     justify-content: space-between;    
 }
 .cart-icon{
-    width: 80%;
-    padding-left: 200px;
+   
+    
     height:40px;
     color: white;
     
@@ -46,26 +47,24 @@
 }
 /* ------------------------------------------------------------ */
 .main{
-    width: 100%;
+    
     height: calc(100%-20%);
-    border: 2px solid green;
+    
 
 }
 .main-carousal{
     width: 100%;
-    height: 150px;
+    
     border: 2px solid purple;
 }
-.main-categories{
-    width: 100%;
-    height: 200px;
-    border: red 2px solid;
+  
+.main-carousal{
+    transition: 1s ease-in-out;
 }
-
-.main-products{
-    width:100%;
-    height:200px;
-    border: 2px solid orchid;
+.main-carousal > img {
+    width: 100%;
+    height: 150px;
+    
 }
 .main-shortinfo{
     width:100%;
@@ -74,40 +73,156 @@
 }
 .main-aboutus{
     width:100%;
-    height:200px;
+    
     border: 2px solid chocolate;
 }
-.categories-header{
+.m-a-header >h2{
     text-align: center;
+    font-size: 28px;
+}
+.m-a-content > p{
+    padding: 20px 60px ;
+}
+.m-a-content-social-footer > p{
+    text-align: center;
+}
+/*    .m-a-content-social p span{
+    color: blue;
+}     */
+.categories-header{
+   text-align: center;
 
-    
 }
 .categories-content  {
-    height: 40px;
-    width: 20%;
+    gap: 15px;
+    padding: 2%;
     display: flex;
-    align-items: center;
+    justify-content: center;
     
 }
-.categories-content div img{
-    height: 40px;
-    border: 1px solid black; 
-    margin:55px;   
-    justify-content: space-evenly; 
+.categories-content > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+
 }
 
 .p-n-header{
     display: flex;
+    justify-content: space-between;
 }
 .p-n-header-name{
-    width: 50%;
-    
+    color: red;
 }
 .p-n-header-viewbtn{
-    width: 50%;
     margin-left: 100px;
-    align-items: center;
+    padding:20px 10px;
+}
+.p-n-content{
+    gap: 15px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-n-content > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
+.p-f-header{
+    display: flex;
+    justify-content: space-between;
+}
+.p-f-header-name{
+    color: red;
+}
+.p-f-header-viewbtn{
+    margin-left: 100px;
     padding:20px 10px;
 }
 
+.p-f-content{
+    gap: 15px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-f-content > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
 
+.p-m-header{
+    display: flex;
+    justify-content: space-between;
+}
+.p-m-header-name{
+    color: red;
+}
+.p-m-header-viewbtn{
+    margin-left: 100px;
+    padding:20px 10px;
+    
+}
+.p-m-content{
+    gap: 15px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-m-content > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
+.p-g-header{
+    display: flex;
+    justify-content: space-between;
+}
+.p-g-header-name{
+    color: red;
+}
+.p-g-header-viewbtn{
+    margin-left: 100px;
+    padding:20px 10px;
+}
+.p-g-content{
+    gap: 15px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-g-content > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
+
+.p-e-header{
+    display: flex;
+    justify-content: space-between;
+}
+.p-e-header-name{
+    color: red;
+}
+.p-e-header-viewbtn{
+    margin-left: 100px;
+    padding:20px 10px;
+}
+.p-e-content{
+    gap: 15px;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-e-content > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
