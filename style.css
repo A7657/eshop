@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 .outer{
     border: 2px solid yellow;
     width: 100%;
@@ -45,6 +50,10 @@
     
     font-size: 30px;
 }
+.price{
+    background-color: rgb(238, 223, 223);
+    padding-top: 5px;
+}
 /* ------------------------------------------------------------ */
 .main{
     
@@ -60,35 +69,18 @@
   
 .main-carousal{
     transition: 1s ease-in-out;
+    animation: carousal 5s linear infinite;
+}
+@keyframes carousal {
+    
 }
 .main-carousal > img {
     width: 100%;
     height: 150px;
     
 }
-.main-shortinfo{
-    width:100%;
-    height:150px;
-    border: 2px solid darkcyan;
-}
-.main-aboutus{
-    width:100%;
-    
-    border: 2px solid chocolate;
-}
-.m-a-header >h2{
-    text-align: center;
-    font-size: 28px;
-}
-.m-a-content > p{
-    padding: 20px 60px ;
-}
-.m-a-content-social-footer > p{
-    text-align: center;
-}
-/*    .m-a-content-social p span{
-    color: blue;
-}     */
+
+
 .categories-header{
    text-align: center;
 
@@ -106,7 +98,10 @@
     border-radius: 2px;
 
 }
-
+.p-newarrival{
+    padding: 0px 20px;
+    background-color: white;
+}
 .p-n-header{
     display: flex;
     justify-content: space-between;
@@ -114,21 +109,30 @@
 .p-n-header-name{
     color: red;
 }
-.p-n-header-viewbtn{
+.p-n-header-viewbtn a button{
     margin-left: 100px;
-    padding:20px 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .p-n-content{
-    gap: 15px;
+    gap:10px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
 }
-.p-n-content > img {
-    height: 150px;
-    width: 150px;
+.p-n-content div img {
+    height: 180px;
+    width: 180px;
     border-radius: 2px;
+}
+.p-fan{
+    padding: 0px 20px;
+    background-color: white;
 }
 .p-f-header{
     display: flex;
@@ -137,24 +141,32 @@
 .p-f-header-name{
     color: red;
 }
-.p-f-header-viewbtn{
+.p-f-header-viewbtn a button{
     margin-left: 100px;
-    padding:20px 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.p-f-content{
-    gap: 15px;
+.p-f-content {
+    gap: 10px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
 }
-.p-f-content > img {
-    height: 150px;
-    width: 150px;
+.p-f-content div img {
+    height: 180px;
+    width: 180px;
     border-radius: 2px;
 }
-
+.p-motor{
+    padding: 0px 20px;
+    background-color: white;
+}
 .p-m-header{
     display: flex;
     justify-content: space-between;
@@ -162,22 +174,31 @@
 .p-m-header-name{
     color: red;
 }
-.p-m-header-viewbtn{
+.p-m-header-viewbtn a button{
     margin-left: 100px;
-    padding:20px 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     
 }
 .p-m-content{
-    gap: 15px;
+    gap: 10px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
-.p-m-content > img {
-    height: 150px;
-    width: 150px;
+.p-m-content div img {
+    height: 180px;
+    width: 180px;
     border-radius: 2px;
+}
+.p-geyser{
+    padding: 0px 20px;
+    background-color: white;
 }
 .p-g-header{
     display: flex;
@@ -186,23 +207,32 @@
 .p-g-header-name{
     color: red;
 }
-.p-g-header-viewbtn{
+.p-g-header-viewbtn a button{
     margin-left: 100px;
-    padding:20px 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .p-g-content{
     gap: 15px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
 }
-.p-g-content > img {
-    height: 150px;
-    width: 150px;
-    border-radius: 2px;
+.p-g-content div img {
+    height: 180px;
+    width: 180px;
+    border-radius: 3px;
 }
+.p-electrickettle{
+    padding: 0px 20px;
+    background-color: white;
 
+}
 .p-e-header{
     display: flex;
     justify-content: space-between;
@@ -210,19 +240,91 @@
 .p-e-header-name{
     color: red;
 }
-.p-e-header-viewbtn{
+.p-e-header-viewbtn  a button{
     margin-left: 100px;
-    padding:20px 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .p-e-content{
     gap: 15px;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+
 }
-.p-e-content > img {
-    height: 150px;
-    width: 150px;
+.p-e-content div img {
+    height: 180px;
+    width: 180px;
     border-radius: 2px;
+}
+.main-aboutus{
+    width:100%;
+    background-color: black;
+    color: white;
+}
+.m-a-header >h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+.m-a-content > p{
+    padding: 20px 60px ;
+}
+.m-a-content-social-footer > p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 22px;
+}
+.m-a-content-social-footer p a{
+    color: blue;
+    text-decoration: none;
+
+}
+.m-a-content-social-footer hr{
+    margin: 20px 50px;
+}
+
+.m-a-content-social {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}  
+.m-a-content-social a{
+    color: white;
+    text-decoration: none;
+}  
+.m-a-content-social a:hover{
+    color: blue;
+}  
+.m-a-content-social a i{
+    padding-right:10px ;
+}  
+
+.main-shortinfo{
+    padding: 10px 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.m-s-content{
+    width: 80%;
+    float: right;
+}
+.main-shortinfo .m-s-content{
+    display: flex;
+    gap: 5px;
+}
+.main-shortinfo i{
+    font-size: 50px;
+}
+.main-shortinfo  img{
+    width: 41px;
+    height: 50px;
 }
