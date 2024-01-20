@@ -33,7 +33,7 @@
     padding-right: 10px;
 }
 
-.loginbtn{
+.loginbtn span a {
     color: white;
     height: 40px;
     align-items: center;
@@ -42,7 +42,7 @@
     font-size: 20px;
     justify-content: space-between;    
 }
-.cart-icon{
+.cart-icon a i{
    
     
     height:40px;
