@@ -18,6 +18,7 @@
     justify-content:space-between;
     color: white;
     margin-bottom: 1px;
+    align-items: center;
 
 }
 .nav-bar-logo{
@@ -43,9 +44,10 @@
     font-size: 20px;
     justify-content: space-between;    
 }
-.cart-icon a i{
-   
+.loginbtn span a:hover{
     
+}
+.cart-icon a i{ 
     height:40px;
     color: white;
     
@@ -184,12 +186,23 @@
     padding: 2%;
     display: flex;
     justify-content: center;
-    
 }
 .categories-content >img{
+    
+}
+.categories-pic img{
     height: 150px;
     width: 150px;
     border-radius: 2px;
+    
+}
+.categories-text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
 
 }
 .p-newarrival{
